@@ -4,11 +4,12 @@
   "description": "mock_responsive_portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -w scss/ -o dist/css/ --recursive"
   },
   "author": "Markus Harrison",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.9.2"
-  }
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {}
 }
