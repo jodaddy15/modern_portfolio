@@ -43,7 +43,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   visibility: hidden;
 
   &.show {
@@ -87,11 +87,13 @@
     }
 
     .portrait {
-      width: 250px;
+      width: 101px;
       height: 250px;
-      background: url("");
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
+      background: url(../img/mh.com.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      border: solid 3px #eece1a;
     }
   }
 
